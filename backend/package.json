@@ -1,0 +1,27 @@
+{
+  "name": "bd-server",
+  "version": "1.0.0",
+  "description": "Social media api",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/janegil-staff/BD.git"
+  },
+  "author": "Jan Egil staff Øvretveit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/janegil-staff/BD/issues"
+  },
+  "homepage": "https://github.com/janegil-staff/BD#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3"
+  }
+}
